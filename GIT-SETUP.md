@@ -1,6 +1,6 @@
 # Repository contents and restore
 
-Suggested repository name: `code-motion-studio`. Keep the repository private: it contains user briefs, original inputs, and third-party reference/SFX files whose public redistribution rights have not been established. No blanket open-source license is assigned to these materials.
+Repository: [amirhosein2004/motion-studio](https://github.com/amirhosein2004/motion-studio). Private visibility is recommended: the repository contains user briefs, original inputs, and third-party reference/SFX files whose public redistribution rights have not been established. No blanket open-source license is assigned to these materials.
 
 ## What belongs in Git
 
@@ -58,8 +58,8 @@ The existing machine uses a dependency junction for this older project; Git inte
 - `Render-Manim.cmd` references a missing `installation/config/manim.cfg`; the restore script references an absent historical checkpoint. Neither is a validated setup command for a fresh clone.
 - A Git upload does not approve a video export. Existing preview/approval requirements remain in force.
 
-## Connect an empty remote
+## Remote and subsequent changes
 
-The local repository uses branch `main`. After creating an empty private GitHub repository without an initial README, license or gitignore, use its actual URL as `origin` and push `main`. Never store an access token in a remote URL or project file. Authenticate with the existing GitHub CLI/credential manager.
+The repository uses branch `main`, with `origin` pointing to `https://github.com/amirhosein2004/motion-studio.git`. Never store an access token in a remote URL or project file. Authenticate with the existing GitHub CLI/credential manager.
 
 For subsequent changes, inspect `git status` and `git diff`, stage the intended files, commit, then push. Check new asset sizes and the private repository setting before sharing project inputs.
