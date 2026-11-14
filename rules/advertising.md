@@ -2,7 +2,7 @@
 
 Use this mode for ads, product/service promotion, and commercial launch films, according to the user's project instructions.
 
-Follow [project structure](project-structure.md), [code implementation](code-motion.md), [motion](motion.md), [references](references.md), and [quality](quality.md). Technical constraints and final-export approval still apply.
+Follow [project structure](project-structure.md), [code implementation](code-motion.md), [motion quality](motion-quality.md), [references](references.md), and [quality](quality.md). Technical constraints and final-export approval still apply.
 
 ## Brief and blank fields
 
@@ -16,7 +16,7 @@ Do not fabricate a discount, customer quote, statistic, product feature, perform
 
 Create a visual storyboard and concise on-screen copy in `docs/STORYBOARD.md`, implemented in scene code and an interactive player. Do not create an educational teacher guide or require a human speaking script.
 
-For an intentionally narration-free ad, a silent interactive preview is complete. Do not block it waiting for voice, TTS, or a recording sample. If voice is explicitly requested later, verify available tools and honor the requested voice/settings; do not assume an old launcher is installed.
+For an intentionally narration-free ad, a silent interactive preview is complete. Do not block it waiting for voice or a recording sample. If narration is explicitly requested later, use the user's own human recording and follow [recording-guide](recording-guide.md) for real-voice intake and timing. The no-synthetic-voice rule in [AGENTS.md](../AGENTS.md) applies to advertising too.
 
 ## Story and design
 

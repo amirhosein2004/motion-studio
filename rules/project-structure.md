@@ -94,8 +94,10 @@ projects/<project-id>/
     render.mjs                Approved export and ffprobe, only when implemented
   docs/
     BRIEF.md
+    INPUT-TRIAGE.md            Step-0 input triage report
     STORYBOARD.md
     NARRATIVE-REVIEW.md        Educational review
+    VISUAL-QA.md               Frame-sample QA record (motion-quality gate)
     REVIEW.md                 Version, results, feedback, approval
 ```
 
@@ -155,6 +157,7 @@ Existing output layouts, including `qa/<version>/`, are preserved.
 
 ## Portability and backup
 
+- Resolve paths from the project/script location, never the caller's working directory. Before recursive filesystem operations, verify absolute targets stay inside the intended workspace, and use one shell with literal paths.
 - Document exact engine/package versions and actual commands; keep preparation scripts with code.
 - Back up the code/production notes and original asset folder together. A copy of `projects/` alone is not a complete project archive.
 - Preserve approved exports/reports as deliverables. Dependency caches and temporary build bundles are reproducible and are not source assets.

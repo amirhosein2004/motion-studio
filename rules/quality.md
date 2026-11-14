@@ -17,19 +17,9 @@ A partial recording handoff is a partial audiovisual draft, not a completed narr
 
 ## Visual checks
 
-Review representative frames around important cues, entrances, transitions, and moving states. A settled final frame alone cannot reveal all collisions.
+Review representative frames around important cues, entrances, transitions, and moving states. A settled final frame alone cannot reveal all collisions. The mandatory frame-sampling checklist (overlap, contrast, text size, safe area, RTL/LTR, overflow, aspect adaptation) is the visual QA gate in [motion-quality](motion-quality.md); run it and record it in `docs/VISUAL-QA.md`.
 
-Check:
-
-- Main question/message, cause/effect, scene order, and correctness of numbers/code.
-- Typography hierarchy, local font loading, readable size, and contrast.
-- Explicit Persian RTL/right alignment and inline English handling.
-- Text/panel collisions, clipped glyphs, overflow, safe areas, and label proximity.
-- Consistent palette, spacing, visual roles, and appropriate depth.
-- Progressive focus, pacing, readable holds, and continuity.
-- Real layout adaptation for any additional aspect ratio.
-
-Keep color/type/spacing/motion rules in a shared design module. Check actual long/edge-case content rather than relying on short placeholders.
+Beyond that gate, review content correctness: main question/message, cause/effect, scene order, and correctness of numbers/code, plus progressive focus, pacing, readable holds, and continuity.
 
 ## Audio and timing checks
 

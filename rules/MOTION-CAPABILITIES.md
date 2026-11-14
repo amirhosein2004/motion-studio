@@ -40,13 +40,7 @@ Copy only necessary browser-ready derivatives to project `public/`. Preserve ori
 
 ## Professional design baseline
 
-1. Explain the mechanism before decorating it. Give every object a role and every transition a reason.
-2. Establish one focal point per beat. Separate headings, labels, code, diagrams, and supporting notes.
-3. Use a consistent spacing and type scale. Check long Persian/English combinations and moving states.
-4. Keep labels short and near the object they describe; teacher notes belong in the guide.
-5. Preserve stable visual meaning: the same color/shape should represent the same role across scenes.
-6. Make motion readable and purposeful. Use holds for comprehension and avoid repetitive motion without new information.
-7. Review the complete narrative and player, not just attractive individual frames.
+The design baseline (focal point per beat, consistent scale, labels near objects, stable visual meaning, readable motion and holds, whole-review discipline) is owned by [motion quality](motion-quality.md) — read it together with this table.
 
 ## Capability is not authorization
 
@@ -60,4 +54,4 @@ A raster image with a 3D look remains a flat image. Real camera rotation require
 
 Implement the chosen capability in scene code and the real preview. Describe its use in the brief/storyboard, run relevant checks, and record limitations in the review. A capability table or storyboard alone is not a completed motion.
 
-Follow [code implementation](code-motion.md), [motion](motion.md), and [quality](quality.md). Final video export still requires approval of the viewed version and an explicit render request.
+Follow [code implementation](code-motion.md), [motion quality](motion-quality.md), and [quality](quality.md). Final video export still requires approval of the viewed version and an explicit render request.
