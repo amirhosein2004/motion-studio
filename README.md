@@ -2,7 +2,7 @@
 
 This workspace produces educational and advertising motion with code. Remotion is the main engine; Persian lessons use the user's own recordings and supplied timed transcripts.
 
-For Git contents, a fresh clone, and machine-specific limitations, see [GIT-SETUP.md](GIT-SETUP.md). This repository includes source assets as well as code; installed applications, dependencies, generated previews, and renders are excluded.
+This repository includes code, guides, source assets and required runtime media. Installed applications, dependencies, generated player bundles, renders, caches and local credentials are excluded through `.gitignore`. Back up renders separately. Original asset bytes are preserved through `.gitattributes`; individual asset licenses remain recorded in the project source manifests.
 
 ## Recommended organization
 
@@ -74,6 +74,8 @@ Use its own README and package scripts. The projects present in this checkout ar
 
 - [LLM explained](workspace/projects/llm-explained-20261114/README.md)
 - [Network illustrated](workspace/projects/network-illustrated-20261106/README.md)
+
+On a fresh clone, install Node.js/npm, then install dependencies inside the selected project: `npm ci --ignore-scripts --no-audit --no-fund` for LLM (committed lockfile), or `npm install --ignore-scripts --no-audit --no-fund` for network (no lockfile). Dependencies are project-local; the older project's dependency junction is not included in Git. Prepared fonts and SFX are included, so ordinary playback does not require Python. Audio preparation and QA may require the excluded Python/browser tools; see each project's README and the audio-tool inventory.
 
 For the LLM project, from the repository root:
 
