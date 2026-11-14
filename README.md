@@ -10,7 +10,7 @@ Keep the existing three top-level production areas. They separate editable code,
 
 ```text
 installation/                  Installed tools, launchers, tool inventory
-.agents/skills/                Available task-specific skills
+.agents/skills/                Project-local skills, when explicitly installed
 rules/                        Shared production rules
 workspace/
   projects/<project-id>/      Code, project config, guides, production decisions
@@ -118,13 +118,9 @@ Use one design system, intentional visual hierarchy, progressive explanation, an
 
 Read [quality and approval rules](rules/quality.md). Normal delivery is an interactive preview, not an automatically exported MP4.
 
-## Focused skills
+## Project-local skills
 
-Core: `remotion-best-practices`, `visual-design-foundations`, `reference-to-motion`, `motion-effects`, `file-conversion`, `code-review-excellence`.
-
-Optional by task: `brand-intake`, `animated-chart`, `data-storytelling`, `reel-export`, `vox-explainer`, `business-motion-film`, `launch-video`, `title-sequence-3d`.
-
-The 14 available skills are in `.agents/skills/`. Availability is not automatic activation; use only the relevant skill and honor the brief.
+No project-local skills are currently installed. The previous collection was removed at the user's request. Install a selected replacement only on an explicit request, under `.agents/skills/`. Shared production requirements remain in `AGENTS.md` and `rules/`; engine installations and existing motion projects are unchanged.
 
 ## Technical references
 
