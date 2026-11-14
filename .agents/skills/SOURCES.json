@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "installedOn": "2026-11-14",
+  "scope": "project-local",
+  "destination": ".agents/skills",
+  "packages": [
+    {
+      "name": "remotion-best-practices",
+      "repository": "remotion-dev/skills",
+      "revision": "7e541aa4d7361dfaca0780a565a47307eb7bdfbb",
+      "path": "skills/remotion-best-practices",
+      "fileCount": 148,
+      "contentSha256": "94f1650b75c7900df6aeafa76923d02cfd10b41bd79464b3762eea61b6ce5e44",
+      "sourceUrl": "https://github.com/remotion-dev/skills/tree/7e541aa4d7361dfaca0780a565a47307eb7bdfbb/skills/remotion-best-practices",
+      "localModifications": []
+    },
+    {
+      "name": "playwright",
+      "repository": "openai/skills",
+      "revision": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/playwright",
+      "fileCount": 9,
+      "contentSha256": "f5351aa8c9c052cc91c5f3d4b2adeb22b4b7a33bb696ca9f4dd4cd14e4f3f9e3",
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright",
+      "localModifications": []
+    },
+    {
+      "name": "pdf",
+      "repository": "openai/skills",
+      "revision": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/pdf",
+      "fileCount": 4,
+      "contentSha256": "2b784f0e0d604f28d1c1a8ff1576801c565e761bb7a95e26a746be998904af97",
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf",
+      "localModifications": []
+    },
+    {
+      "name": "frontend-design",
+      "repository": "anthropics/skills",
+      "revision": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "path": "skills/frontend-design",
+      "fileCount": 2,
+      "contentSha256": "d43ace63d22e3502ab5c53b63138dafd0431ed5fd2fa63320285c8167ab27de6",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/2c5958ecac7cee2b583967a2c4981d0f4a75c579/skills/frontend-design",
+      "localModifications": []
+    }
+  ],
+  "existingProjectRemotionVersions": {
+    "llm-explained-20261114": "4.0.535",
+    "network-illustrated-20261106": "4.0.535"
+  },
+  "notes": [
+    "Skill files were copied from pinned upstream revisions; bundled scripts were not modified.",
+    "Skill guidance is subordinate to workspace consent, paths, RTL and engine-version requirements.",
+    "Instruction installation does not install every optional browser, Python, media or model dependency."
+  ]
+}

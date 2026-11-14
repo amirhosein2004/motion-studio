@@ -120,7 +120,22 @@ Read [quality and approval rules](rules/quality.md). Normal delivery is an inter
 
 ## Project-local skills
 
-No project-local skills are currently installed. The previous collection was removed at the user's request. Install a selected replacement only on an explicit request, under `.agents/skills/`. Shared production requirements remain in `AGENTS.md` and `rules/`; engine installations and existing motion projects are unchanged.
+Four upstream skill packages are installed under `.agents/skills/`:
+
+| Skill | Source | Role |
+|---|---|---|
+| `remotion-best-practices` | `remotion-dev/skills` | Remotion scene implementation; includes its referenced markup, motion, media, Studio and rendering guides |
+| `playwright` | `openai/skills` | Browser interaction, screenshots and player/guide checks |
+| `frontend-design` | `anthropics/skills` | Visual design for the player, recording guide and UI scenes |
+| `pdf` | `openai/skills` | PDF source inspection, extraction and document layout checks |
+
+Pinned source revisions and content hashes are recorded in [.agents/skills/SOURCES.json](.agents/skills/SOURCES.json). Upstream skill files and bundled license/notice files are preserved. Install further skills only on an explicit request.
+
+Workspace instructions in `AGENTS.md` and `rules/` take precedence over skill defaults: keep the export approval gate, natural human narration, local Vazirmatn/RTL, project paths and the loopback launcher. Select skills per task. Appearance guidance never chooses a new engine or replaces the teaching objective.
+
+The Remotion guide bundle identifies itself as 4.0.543; existing projects remain on 4.0.535. Check an API against the selected project's installed version before using it, and do not upgrade dependencies just to match a skill example. Caption, synthetic-voice, model-download and export examples are not authorization to run them.
+
+Skill installation copies instructions and helpers, not all their optional runtime dependencies. Use the installed browser tools for browser QA when suitable. The Playwright CLI helper is local at `.agents/skills/playwright/scripts/playwright_cli.sh`; on Windows use Git Bash, not the WSL `bash.exe`. PDF page rendering uses the available Poppler tools; Python PDF generation/extraction packages must be checked before a task that requires them. Preparation scripts use the designated workspace Python, and generated QA belongs under `workspace/renders/<project-id>/`.
 
 ## Technical references
 

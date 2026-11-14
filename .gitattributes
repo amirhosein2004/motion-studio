@@ -5,6 +5,8 @@
 
 # Source inputs must retain their original bytes, including text and transcripts.
 workspace/assets/** -text
+# Keep vendored skill sources and their recorded content hashes byte-identical.
+.agents/skills/** -text
 *.mp3 binary
 *.wav binary
 *.m4a binary
