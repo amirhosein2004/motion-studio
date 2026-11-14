@@ -1,0 +1,211 @@
+{
+  "assets": [
+    {
+      "type": "font",
+      "name": "Vazirmatn Regular/Bold",
+      "source": "workspace/assets/ssh-tunnel/fonts/",
+      "upstream": "https://github.com/rastikerdar/vazirmatn",
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "type": "illustration",
+      "source": "Original SVG authored for this project in src/Shared.tsx and src/chapters",
+      "license": "project source"
+    },
+    {
+      "type": "narration",
+      "source": "User human recording; not yet supplied",
+      "used": false
+    },
+    {
+      "type": "illustration",
+      "source": "src/scenes/Device.tsx; original SVG phone, laptop, router, server, printer and network cloud",
+      "license": "project source"
+    },
+    {
+      "type": "texture",
+      "source": "Deterministic inline SVG turbulence, creases and speckles in src/Shared.tsx",
+      "license": "project source"
+    },
+    {
+      "type": "texture",
+      "source": "public/assets/paper.svg",
+      "license": "project source"
+    },
+    {
+      "type": "sfx",
+      "name": "disconnect",
+      "source": "public/audio/sfx/source/emircanalp-beep-125033.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\emircanalp-beep-125033.mp3",
+      "playback": "audio/sfx/disconnect.wav",
+      "sha256": "29943c40e525b5950c775ba22b4da32de9dbfa32e24dcb583735229bfced0982",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.275,
+        "trimEnd": 1.325,
+        "gainDb": -23.014
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "arrival",
+      "source": "public/audio/sfx/source/soundshelfstudio-ui-soft-glass-ping-526562.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\soundshelfstudio-ui-soft-glass-ping-526562.mp3",
+      "playback": "audio/sfx/arrival.wav",
+      "sha256": "4863d325b435675298ae0c4aa6e84d6537c836aab8af6ee5ded6d6d4b569dc0c",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.01,
+        "trimEnd": 0.47,
+        "gainDb": -10.465
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "reveal",
+      "source": "public/audio/sfx/source/soundreality-pop-423717.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\soundreality-pop-423717.mp3",
+      "playback": "audio/sfx/reveal.wav",
+      "sha256": "6ee902eec6e3a6b0a9b117f3da32e170c7c8b8c961c61c76358341696aaec7c4",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.13,
+        "trimEnd": 0.35,
+        "gainDb": -19.021
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "connect",
+      "source": "public/audio/sfx/source/freesound_gamestudio-click-2-384920.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\freesound_gamestudio-click-2-384920.mp3",
+      "playback": "audio/sfx/connect.wav",
+      "sha256": "35921a147ac8ba42e6ec8584b72f3e46fd7a1265bc8aa170d48b1825d82bd8f6",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.06,
+        "trimEnd": 0.35,
+        "gainDb": -15.382
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "complete",
+      "source": "public/audio/sfx/source/soundshelfstudio-ui-chime-notification-sound-553111.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\soundshelfstudio-ui-chime-notification-sound-553111.mp3",
+      "playback": "audio/sfx/complete.wav",
+      "sha256": "4f6639bbb0cb64865c733a22cd1f8fee8efa2f32addb91888a6eab9de187a879",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.01,
+        "trimEnd": 1.16,
+        "gainDb": -12.386
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "transition",
+      "source": "public/audio/sfx/source/dbsound-short-simple-whoosh-609448.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\dbsound-short-simple-whoosh-609448.mp3",
+      "playback": "audio/sfx/transition.wav",
+      "sha256": "35a24c7c6866ab89db7b4cdb6d8f03ffb0b44d046f6a01b2e7ed43f5d012cf59",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.055,
+        "trimEnd": 0.792,
+        "gainDb": -5.617
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "piece",
+      "source": "public/audio/sfx/source/vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3",
+      "playback": "audio/sfx/piece.wav",
+      "sha256": "3f201692b86e392e3be177c4b1551d333dd0611dd3bae8ce9cfa9c40cdf081a3",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.005,
+        "trimEnd": 0.17,
+        "gainDb": -18.941
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "transfer",
+      "source": "public/audio/sfx/source/freesound_community-digital-91828.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\freesound_community-digital-91828.mp3",
+      "playback": "audio/sfx/transfer.wav",
+      "sha256": "1209ebd97cde095aaf36c0f14c12d7a0af966528629842566a2f61cf5fba37c8",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.045,
+        "trimEnd": 1.175521,
+        "gainDb": -5.169
+      }
+    },
+    {
+      "type": "sfx",
+      "name": "enter",
+      "source": "public/audio/sfx/source/vadim_makes_sound-single-mechanical-keyboard-enter-key-press-546557.mp3",
+      "original": "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\network-illustrated-20261106\\sfx\\vadim_makes_sound-single-mechanical-keyboard-enter-key-press-546557.mp3",
+      "playback": "audio/sfx/enter.wav",
+      "sha256": "0ca06cd55dadeba327e703d2dc422ca5c18d54bddae25065678d9a81afc2e30d",
+      "license": "User-supplied file; license document not supplied; no license inferred from filename",
+      "processing": {
+        "trimStart": 0.18,
+        "trimEnd": 1.385,
+        "gainDb": -19.515
+      }
+    },
+    {
+      "type": "illustration",
+      "name": "3D depth layer",
+      "source": "src/depth/engine.tsx and src/depth/Depth.tsx; hand-authored SVG perspective projection, polyhedra and 3D constellation",
+      "license": "project source"
+    },
+    {
+      "type": "pacing",
+      "source": "src/pace.json; authored beats compressed to 0.9 with a 2.2 s scene tail; scene durations rebuilt by scripts/rebuild-timeline.mjs",
+      "license": "project source"
+    },
+    {
+      "type": "illustration",
+      "name": "device 3D presentation",
+      "source": "src/scenes/Device3D.tsx; original Device.tsx artwork presented with CSS perspective, parallax rotation and stacked depth layers",
+      "license": "project source"
+    }
+  ],
+  "reference": {
+    "type": "chat image",
+    "description": "Anime Halloween icons pack cover: orange textured field, yellow typography, faceted dark silhouettes, cast shadows",
+    "status": "Viewed in chat; visual reference only; no reference pixels or stock illustrations imported",
+    "local_file": null
+  },
+  "facts": [
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1918",
+      "topic": "private IPv4"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc3022",
+      "topic": "NAT/NAPT mappings"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1034",
+      "topic": "DNS"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc4251",
+      "topic": "SSH architecture"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2131",
+      "topic": "DHCP automatic address allocation and settings"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6335",
+      "topic": "service names and transport port numbers"
+    }
+  ]
+}

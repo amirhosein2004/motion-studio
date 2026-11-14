@@ -1,0 +1,50 @@
+﻿[
+    {
+        "name":  "u_f1ee7vf7na-blip-131856.mp3",
+        "source":  "C:\\Users\\Asus\\Downloads\\u_f1ee7vf7na-blip-131856.mp3",
+        "destination":  "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\llm-explained-20261114\\audio\\sfx\\u_f1ee7vf7na-blip-131856.mp3",
+        "sha256":  "381dd8c3fc8618a5d827c17da8b07b06a89f311d07dd0d60bad85be4e63bbb86",
+        "moved":  true,
+        "sourceRemoved":  true
+    },
+    {
+        "name":  "vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3",
+        "source":  "C:\\Users\\Asus\\Downloads\\vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3",
+        "destination":  "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\llm-explained-20261114\\audio\\sfx\\vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3",
+        "sha256":  "3f201692b86e392e3be177c4b1551d333dd0611dd3bae8ce9cfa9c40cdf081a3",
+        "moved":  true,
+        "sourceRemoved":  true
+    },
+    {
+        "name":  "soundshelfstudio-ui-soft-glass-ping-526562.mp3",
+        "source":  "C:\\Users\\Asus\\Downloads\\soundshelfstudio-ui-soft-glass-ping-526562.mp3",
+        "destination":  "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\llm-explained-20261114\\audio\\sfx\\soundshelfstudio-ui-soft-glass-ping-526562.mp3",
+        "sha256":  "4863d325b435675298ae0c4aa6e84d6537c836aab8af6ee5ded6d6d4b569dc0c",
+        "moved":  true,
+        "sourceRemoved":  true
+    },
+    {
+        "name":  "dragon-studio-simple-whoosh-382724.mp3",
+        "source":  "C:\\Users\\Asus\\Downloads\\dragon-studio-simple-whoosh-382724.mp3",
+        "destination":  "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\llm-explained-20261114\\audio\\sfx\\dragon-studio-simple-whoosh-382724.mp3",
+        "sha256":  "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+        "moved":  true,
+        "sourceRemoved":  true
+    },
+    {
+        "name":  "universfield-clear-bell-chime-487898.mp3",
+        "source":  "C:\\Users\\Asus\\Downloads\\universfield-clear-bell-chime-487898.mp3",
+        "destination":  "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\llm-explained-20261114\\audio\\sfx\\universfield-clear-bell-chime-487898.mp3",
+        "sha256":  "25bc48b75063f2abbdde8ab49758bf33b491111c68225078f7ddb2cd9d433162",
+        "moved":  true,
+        "sourceRemoved":  true
+    },
+    {
+        "name":  "samuelfjohanns-computer-processing-sound-effect-01-122131.mp3",
+        "source":  "C:\\Users\\Asus\\Downloads\\samuelfjohanns-computer-processing-sound-effect-01-122131.mp3",
+        "destination":  "C:\\Users\\Asus\\Desktop\\PYTHON\\Motion Graphic\\workspace\\assets\\llm-explained-20261114\\audio\\sfx\\samuelfjohanns-computer-processing-sound-effect-01-122131.mp3",
+        "sha256":  "59c878f8074bce586debdc2a4b584620928096de5b7ce61de7c92abbd4d82149",
+        "moved":  true,
+        "sourceRemoved":  true
+    }
+]

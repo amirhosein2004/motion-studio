@@ -1,0 +1,31 @@
+{
+  "fonts": [
+    "fonts/Vazirmatn-Regular.woff2",
+    "fonts/Vazirmatn-Bold.woff2"
+  ],
+  "audio": [],
+  "illustrations": "hand-authored SVG in Shared.tsx and chapters",
+  "sfx": [
+    "audio/sfx/disconnect.wav",
+    "audio/sfx/arrival.wav",
+    "audio/sfx/reveal.wav",
+    "audio/sfx/connect.wav",
+    "audio/sfx/complete.wav",
+    "audio/sfx/transition.wav",
+    "audio/sfx/piece.wav",
+    "audio/sfx/transfer.wav",
+    "audio/sfx/enter.wav"
+  ],
+  "sfxSources": [
+    "audio/sfx/source/dbsound-short-simple-whoosh-609448.mp3",
+    "audio/sfx/source/emircanalp-beep-125033.mp3",
+    "audio/sfx/source/freesound_community-digital-91828.mp3",
+    "audio/sfx/source/freesound_gamestudio-click-2-384920.mp3",
+    "audio/sfx/source/soundreality-pop-423717.mp3",
+    "audio/sfx/source/soundshelfstudio-ui-chime-notification-sound-553111.mp3",
+    "audio/sfx/source/soundshelfstudio-ui-soft-glass-ping-526562.mp3",
+    "audio/sfx/source/vadim_makes_sound-single-mechanical-keyboard-enter-key-press-546557.mp3",
+    "audio/sfx/source/vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3"
+  ],
+  "depth": "hand-authored 3D projection in src/depth"
+}

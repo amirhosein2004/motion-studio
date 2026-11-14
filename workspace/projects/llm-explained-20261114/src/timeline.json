@@ -1,0 +1,248 @@
+{
+  "mode": "compact-provisional-visual-draft",
+  "audioCoverage": "authorized-sfx-only-human-narration-not-supplied",
+  "estimatedNarratedSeconds": [
+    170,
+    220
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "durationSeconds": 10,
+      "cues": [
+        {
+          "id": "place",
+          "at": 0.5,
+          "phrase": "مدل زبانی داخل دستیار"
+        },
+        {
+          "id": "boundary",
+          "at": 4.2,
+          "phrase": "رابط و ابزار جدا از مدل"
+        },
+        {
+          "id": "scope",
+          "at": 7,
+          "phrase": "هر هوش مصنوعی مدل زبانی نیست"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "durationSeconds": 16,
+      "cues": [
+        {
+          "id": "data",
+          "at": 0.6,
+          "phrase": "دادهٔ آماده‌شده"
+        },
+        {
+          "id": "predict",
+          "at": 3,
+          "phrase": "پیش‌بینی ادامه"
+        },
+        {
+          "id": "compare",
+          "at": 5.5,
+          "phrase": "مقایسه با ادامهٔ واقعی"
+        },
+        {
+          "id": "update",
+          "at": 8,
+          "phrase": "اصلاح وزن‌ها"
+        },
+        {
+          "id": "repeat",
+          "at": 11.5,
+          "phrase": "تکرار روی داده‌های زیاد"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "durationSeconds": 12,
+      "cues": [
+        {
+          "id": "text",
+          "at": 0.5,
+          "phrase": "متن ورودی"
+        },
+        {
+          "id": "tokens",
+          "at": 2.4,
+          "phrase": "توکن یعنی تکهٔ متن"
+        },
+        {
+          "id": "ids",
+          "at": 5,
+          "phrase": "شناسهٔ هر توکن"
+        },
+        {
+          "id": "vectors",
+          "at": 7.4,
+          "phrase": "بردار یعنی فهرست عددها"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "durationSeconds": 19,
+      "cues": [
+        {
+          "id": "context",
+          "at": 0.6,
+          "phrase": "متن در دسترس"
+        },
+        {
+          "id": "attention",
+          "at": 3,
+          "phrase": "توجه و ارتباط توکن‌ها"
+        },
+        {
+          "id": "scores",
+          "at": 6,
+          "phrase": "احتمال ادامه"
+        },
+        {
+          "id": "select",
+          "at": 8.6,
+          "phrase": "انتخاب توکن"
+        },
+        {
+          "id": "append",
+          "at": 10.4,
+          "phrase": "اضافه‌شدن به متن"
+        },
+        {
+          "id": "again",
+          "at": 12.5,
+          "phrase": "تکرار با ورودی تازه"
+        },
+        {
+          "id": "next",
+          "at": 15,
+          "phrase": "ادامهٔ پاسخ"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "durationSeconds": 13,
+      "cues": [
+        {
+          "id": "feedback",
+          "at": 0.7,
+          "phrase": "نمونه و بازخورد"
+        },
+        {
+          "id": "tune",
+          "at": 3.2,
+          "phrase": "تغییر وزن‌ها در آموزش"
+        },
+        {
+          "id": "inference",
+          "at": 6.6,
+          "phrase": "وزن ثابت هنگام پاسخ"
+        },
+        {
+          "id": "context",
+          "at": 9.5,
+          "phrase": "پیام تازه، زمینهٔ تازه"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "durationSeconds": 16,
+      "cues": [
+        {
+          "id": "request",
+          "at": 1,
+          "phrase": "درخواست ابزار"
+        },
+        {
+          "id": "search",
+          "at": 3.4,
+          "phrase": "اجرای جستجو"
+        },
+        {
+          "id": "source",
+          "at": 6,
+          "phrase": "برگشت منبع"
+        },
+        {
+          "id": "context",
+          "at": 8.4,
+          "phrase": "ورود به زمینه"
+        },
+        {
+          "id": "answer",
+          "at": 11,
+          "phrase": "ساخت پاسخ با منبع"
+        },
+        {
+          "id": "boundary",
+          "at": 13.5,
+          "phrase": "جستجو آموزش مجدد نیست"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "durationSeconds": 13,
+      "cues": [
+        {
+          "id": "patterns",
+          "at": 0.5,
+          "phrase": "الگوهای یادگرفته‌شده"
+        },
+        {
+          "id": "ingredients",
+          "at": 2.5,
+          "phrase": "مواد موجود"
+        },
+        {
+          "id": "combine",
+          "at": 5,
+          "phrase": "ترکیب تازه"
+        },
+        {
+          "id": "suggestion",
+          "at": 7.5,
+          "phrase": "پیشنهاد ممکن"
+        },
+        {
+          "id": "memorization",
+          "at": 10,
+          "phrase": "بازتولید بعضی متن‌ها ممکنه"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "durationSeconds": 11,
+      "cues": [
+        {
+          "id": "learn",
+          "at": 0.6,
+          "phrase": "آموزش و وزن‌ها"
+        },
+        {
+          "id": "run",
+          "at": 3,
+          "phrase": "ورودی و تولید پاسخ"
+        },
+        {
+          "id": "tool",
+          "at": 5,
+          "phrase": "ابزار و زمینه"
+        },
+        {
+          "id": "limit",
+          "at": 7.7,
+          "phrase": "روانی تضمین درستی نیست"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "note": "Authored beat seconds are compressed by pace, then a short tail is added per scene. Keeps the measured 9:54 cut at roughly 7:38 without touching the illustrations.",
+  "pace": 0.9,
+  "tailSeconds": 2.2,
+  "authoredMax": {
+    "S01": 23,
+    "S02": 31,
+    "S03": 27,
+    "S04": 27.7,
+    "S05": 39,
+    "S06": 30,
+    "S07": 41,
+    "S08": 32,
+    "S09": 24,
+    "S10": 34,
+    "S11": 30,
+    "S12": 39,
+    "S13": 28,
+    "S14": 42,
+    "S15": 25
+  }
+}

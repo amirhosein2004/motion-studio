@@ -1,0 +1,1722 @@
+{
+  "version": "v4-reviewed",
+  "status": "provisional-awaiting-human-voice",
+  "masterVolume": 0.85,
+  "events": [
+    {
+      "scene": 1,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_001"
+    },
+    {
+      "scene": 1,
+      "second": 3,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S01-1"
+      ],
+      "id": "SFX_002"
+    },
+    {
+      "scene": 1,
+      "second": 7,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S01-2"
+      ],
+      "id": "SFX_003"
+    },
+    {
+      "scene": 1,
+      "second": 12,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S01-3"
+      ],
+      "id": "SFX_004"
+    },
+    {
+      "scene": 1,
+      "second": 14,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_005"
+    },
+    {
+      "scene": 1,
+      "second": 15,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S01-4"
+      ],
+      "id": "SFX_006"
+    },
+    {
+      "scene": 1,
+      "second": 18,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S01-5"
+      ],
+      "id": "SFX_007"
+    },
+    {
+      "scene": 1,
+      "second": 20,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S01-6"
+      ],
+      "id": "SFX_008"
+    },
+    {
+      "scene": 1,
+      "second": 23,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S01-7"
+      ],
+      "id": "SFX_009"
+    },
+    {
+      "scene": 2,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_010"
+    },
+    {
+      "scene": 2,
+      "second": 3,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S02-9",
+        "S02-10"
+      ],
+      "id": "SFX_011"
+    },
+    {
+      "scene": 2,
+      "second": 4,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S02-8"
+      ],
+      "id": "SFX_012"
+    },
+    {
+      "scene": 2,
+      "second": 9,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S02-11",
+        "S02-12"
+      ],
+      "id": "SFX_013"
+    },
+    {
+      "scene": 2,
+      "second": 14,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S02-13",
+        "S02-14"
+      ],
+      "id": "SFX_014"
+    },
+    {
+      "scene": 2,
+      "second": 19,
+      "sound": "disconnect",
+      "purpose": "قطع اینترنت",
+      "volume": 0.8,
+      "covers": [
+        "S02-15",
+        "S02-16",
+        "S02-17",
+        "S02-18"
+      ],
+      "id": "SFX_015"
+    },
+    {
+      "scene": 2,
+      "second": 24,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S02-19"
+      ],
+      "id": "SFX_016"
+    },
+    {
+      "scene": 2,
+      "second": 25,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S02-20"
+      ],
+      "id": "SFX_017"
+    },
+    {
+      "scene": 2,
+      "second": 29,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S02-21"
+      ],
+      "id": "SFX_018"
+    },
+    {
+      "scene": 2,
+      "second": 31,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_019"
+    },
+    {
+      "scene": 3,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_020"
+    },
+    {
+      "scene": 3,
+      "second": 5,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S03-22"
+      ],
+      "id": "SFX_021"
+    },
+    {
+      "scene": 3,
+      "second": 8,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S03-23"
+      ],
+      "id": "SFX_022"
+    },
+    {
+      "scene": 3,
+      "second": 13,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S03-24"
+      ],
+      "id": "SFX_023"
+    },
+    {
+      "scene": 3,
+      "second": 15,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S03-25"
+      ],
+      "id": "SFX_024"
+    },
+    {
+      "scene": 3,
+      "second": 17,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S03-26"
+      ],
+      "id": "SFX_025"
+    },
+    {
+      "scene": 3,
+      "second": 19,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_026"
+    },
+    {
+      "scene": 3,
+      "second": 23,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S03-27"
+      ],
+      "id": "SFX_027"
+    },
+    {
+      "scene": 3,
+      "second": 27,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S03-28"
+      ],
+      "id": "SFX_028"
+    },
+    {
+      "scene": 4,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_029"
+    },
+    {
+      "scene": 4,
+      "second": 5,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S04-29"
+      ],
+      "id": "SFX_030"
+    },
+    {
+      "scene": 4,
+      "second": 6,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S04-32"
+      ],
+      "id": "SFX_031"
+    },
+    {
+      "scene": 4,
+      "second": 7,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S04-41"
+      ],
+      "id": "SFX_032"
+    },
+    {
+      "scene": 4,
+      "second": 9,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S04-30"
+      ],
+      "id": "SFX_033"
+    },
+    {
+      "scene": 4,
+      "second": 10,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S04-33"
+      ],
+      "id": "SFX_034"
+    },
+    {
+      "scene": 4,
+      "second": 13,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S04-31"
+      ],
+      "id": "SFX_035"
+    },
+    {
+      "scene": 4,
+      "second": 14,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S04-34"
+      ],
+      "id": "SFX_036"
+    },
+    {
+      "scene": 4,
+      "second": 16,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S04-35"
+      ],
+      "id": "SFX_037"
+    },
+    {
+      "scene": 4,
+      "second": 17.3,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S04-36"
+      ],
+      "id": "SFX_038"
+    },
+    {
+      "scene": 4,
+      "second": 18.6,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S04-37"
+      ],
+      "id": "SFX_039"
+    },
+    {
+      "scene": 4,
+      "second": 19.700000000000003,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_040"
+    },
+    {
+      "scene": 4,
+      "second": 24,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S04-38"
+      ],
+      "id": "SFX_041"
+    },
+    {
+      "scene": 4,
+      "second": 25.3,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S04-39"
+      ],
+      "id": "SFX_042"
+    },
+    {
+      "scene": 4,
+      "second": 26.6,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S04-40"
+      ],
+      "id": "SFX_043"
+    },
+    {
+      "scene": 4,
+      "second": 27.700000000000003,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_044"
+    },
+    {
+      "scene": 5,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_045"
+    },
+    {
+      "scene": 5,
+      "second": 7,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S05-42"
+      ],
+      "id": "SFX_046"
+    },
+    {
+      "scene": 5,
+      "second": 13,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S05-43"
+      ],
+      "id": "SFX_047"
+    },
+    {
+      "scene": 5,
+      "second": 22,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S05-44"
+      ],
+      "id": "SFX_048"
+    },
+    {
+      "scene": 5,
+      "second": 30,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S05-45"
+      ],
+      "id": "SFX_049"
+    },
+    {
+      "scene": 5,
+      "second": 39,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S05-46"
+      ],
+      "id": "SFX_050"
+    },
+    {
+      "scene": 6,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_051"
+    },
+    {
+      "scene": 6,
+      "second": 4,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S06-47"
+      ],
+      "id": "SFX_052"
+    },
+    {
+      "scene": 6,
+      "second": 8,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S06-48"
+      ],
+      "id": "SFX_053"
+    },
+    {
+      "scene": 6,
+      "second": 13,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S06-49",
+        "S06-50"
+      ],
+      "id": "SFX_054"
+    },
+    {
+      "scene": 6,
+      "second": 15,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S06-51"
+      ],
+      "id": "SFX_055"
+    },
+    {
+      "scene": 6,
+      "second": 19,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S06-52"
+      ],
+      "id": "SFX_056"
+    },
+    {
+      "scene": 6,
+      "second": 20.5,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S06-53"
+      ],
+      "id": "SFX_057"
+    },
+    {
+      "scene": 6,
+      "second": 22,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_058"
+    },
+    {
+      "scene": 6,
+      "second": 30,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S06-54"
+      ],
+      "id": "SFX_059"
+    },
+    {
+      "scene": 7,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_060"
+    },
+    {
+      "scene": 7,
+      "second": 8,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S07-55"
+      ],
+      "id": "SFX_061"
+    },
+    {
+      "scene": 7,
+      "second": 14,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S07-56"
+      ],
+      "id": "SFX_062"
+    },
+    {
+      "scene": 7,
+      "second": 16,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S07-58"
+      ],
+      "id": "SFX_063"
+    },
+    {
+      "scene": 7,
+      "second": 19,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S07-57",
+        "S07-59",
+        "S07-60"
+      ],
+      "id": "SFX_064"
+    },
+    {
+      "scene": 7,
+      "second": 25,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S07-61"
+      ],
+      "id": "SFX_065"
+    },
+    {
+      "scene": 7,
+      "second": 29,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S07-62"
+      ],
+      "id": "SFX_066"
+    },
+    {
+      "scene": 7,
+      "second": 30,
+      "sound": "piece",
+      "purpose": "حرکت داده",
+      "volume": 0.7,
+      "covers": [
+        "S07-63"
+      ],
+      "id": "SFX_067"
+    },
+    {
+      "scene": 7,
+      "second": 32,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_068"
+    },
+    {
+      "scene": 7,
+      "second": 35,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S07-64",
+        "S07-67"
+      ],
+      "id": "SFX_069"
+    },
+    {
+      "scene": 7,
+      "second": 37,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S07-65",
+        "S07-68"
+      ],
+      "id": "SFX_070"
+    },
+    {
+      "scene": 7,
+      "second": 39,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S07-66"
+      ],
+      "id": "SFX_071"
+    },
+    {
+      "scene": 7,
+      "second": 41,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S07-69"
+      ],
+      "id": "SFX_072"
+    },
+    {
+      "scene": 8,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_073"
+    },
+    {
+      "scene": 8,
+      "second": 4,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S08-72",
+        "S08-73"
+      ],
+      "id": "SFX_074"
+    },
+    {
+      "scene": 8,
+      "second": 8,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S08-70"
+      ],
+      "id": "SFX_075"
+    },
+    {
+      "scene": 8,
+      "second": 13,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S08-71"
+      ],
+      "id": "SFX_076"
+    },
+    {
+      "scene": 8,
+      "second": 17,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S08-74"
+      ],
+      "id": "SFX_077"
+    },
+    {
+      "scene": 8,
+      "second": 19,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S08-75"
+      ],
+      "id": "SFX_078"
+    },
+    {
+      "scene": 8,
+      "second": 22,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_079"
+    },
+    {
+      "scene": 8,
+      "second": 25,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S08-76"
+      ],
+      "id": "SFX_080"
+    },
+    {
+      "scene": 8,
+      "second": 28,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S08-77"
+      ],
+      "id": "SFX_081"
+    },
+    {
+      "scene": 8,
+      "second": 31,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_082"
+    },
+    {
+      "scene": 8,
+      "second": 32,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S08-78"
+      ],
+      "id": "SFX_083"
+    },
+    {
+      "scene": 9,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_084"
+    },
+    {
+      "scene": 9,
+      "second": 3,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S09-79"
+      ],
+      "id": "SFX_085"
+    },
+    {
+      "scene": 9,
+      "second": 10,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S09-80"
+      ],
+      "id": "SFX_086"
+    },
+    {
+      "scene": 9,
+      "second": 18,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S09-81"
+      ],
+      "id": "SFX_087"
+    },
+    {
+      "scene": 9,
+      "second": 24,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S09-82"
+      ],
+      "id": "SFX_088"
+    },
+    {
+      "scene": 10,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_089"
+    },
+    {
+      "scene": 10,
+      "second": 7,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S10-83"
+      ],
+      "id": "SFX_090"
+    },
+    {
+      "scene": 10,
+      "second": 8,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S10-85"
+      ],
+      "id": "SFX_091"
+    },
+    {
+      "scene": 10,
+      "second": 12,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S10-86"
+      ],
+      "id": "SFX_092"
+    },
+    {
+      "scene": 10,
+      "second": 14,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_093"
+    },
+    {
+      "scene": 10,
+      "second": 18,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S10-87"
+      ],
+      "id": "SFX_094"
+    },
+    {
+      "scene": 10,
+      "second": 20,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_095"
+    },
+    {
+      "scene": 10,
+      "second": 22,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S10-88"
+      ],
+      "id": "SFX_096"
+    },
+    {
+      "scene": 10,
+      "second": 25,
+      "sound": "reveal",
+      "purpose": "ورود دستگاه",
+      "volume": 0.7,
+      "covers": [
+        "S10-84"
+      ],
+      "id": "SFX_097"
+    },
+    {
+      "scene": 10,
+      "second": 28,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S10-89"
+      ],
+      "id": "SFX_098"
+    },
+    {
+      "scene": 10,
+      "second": 31,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S10-90"
+      ],
+      "id": "SFX_099"
+    },
+    {
+      "scene": 10,
+      "second": 34,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_100"
+    },
+    {
+      "scene": 11,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_101"
+    },
+    {
+      "scene": 11,
+      "second": 8,
+      "sound": "piece",
+      "purpose": "تقسیم داده",
+      "volume": 0.7,
+      "covers": [
+        "S11-91"
+      ],
+      "id": "SFX_102"
+    },
+    {
+      "scene": 11,
+      "second": 8.16,
+      "sound": "piece",
+      "purpose": "جداشدن قطعه‌ها",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_103"
+    },
+    {
+      "scene": 11,
+      "second": 8.32,
+      "sound": "piece",
+      "purpose": "جداشدن قطعه‌ها",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_104"
+    },
+    {
+      "scene": 11,
+      "second": 12,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S11-92"
+      ],
+      "id": "SFX_105"
+    },
+    {
+      "scene": 11,
+      "second": 18,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S11-93"
+      ],
+      "id": "SFX_106"
+    },
+    {
+      "scene": 11,
+      "second": 20,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S11-94"
+      ],
+      "id": "SFX_107"
+    },
+    {
+      "scene": 11,
+      "second": 21,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_108"
+    },
+    {
+      "scene": 11,
+      "second": 22,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S11-95"
+      ],
+      "id": "SFX_109"
+    },
+    {
+      "scene": 11,
+      "second": 23,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_110"
+    },
+    {
+      "scene": 11,
+      "second": 24,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S11-96"
+      ],
+      "id": "SFX_111"
+    },
+    {
+      "scene": 11,
+      "second": 25,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_112"
+    },
+    {
+      "scene": 11,
+      "second": 27,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_113"
+    },
+    {
+      "scene": 11,
+      "second": 30,
+      "sound": "piece",
+      "purpose": "بازسازی داده",
+      "volume": 0.7,
+      "covers": [
+        "S11-97"
+      ],
+      "id": "SFX_114"
+    },
+    {
+      "scene": 11,
+      "second": 30.16,
+      "sound": "piece",
+      "purpose": "کنار هم قرارگرفتن قطعه‌ها",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_115"
+    },
+    {
+      "scene": 11,
+      "second": 30.32,
+      "sound": "piece",
+      "purpose": "کنار هم قرارگرفتن قطعه‌ها",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_116"
+    },
+    {
+      "scene": 11,
+      "second": 30.7,
+      "sound": "complete",
+      "purpose": "تکمیل بازسازی داده",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_117"
+    },
+    {
+      "scene": 12,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_118"
+    },
+    {
+      "scene": 12,
+      "second": 7,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S12-98"
+      ],
+      "id": "SFX_119"
+    },
+    {
+      "scene": 12,
+      "second": 16,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S12-99",
+        "S12-100",
+        "S12-101",
+        "S12-102",
+        "S12-103"
+      ],
+      "id": "SFX_120"
+    },
+    {
+      "scene": 12,
+      "second": 20,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S12-104"
+      ],
+      "id": "SFX_121"
+    },
+    {
+      "scene": 12,
+      "second": 23,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S12-105"
+      ],
+      "id": "SFX_122"
+    },
+    {
+      "scene": 12,
+      "second": 27,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_123"
+    },
+    {
+      "scene": 12,
+      "second": 30,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S12-106",
+        "S12-107"
+      ],
+      "id": "SFX_124"
+    },
+    {
+      "scene": 12,
+      "second": 34,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_125"
+    },
+    {
+      "scene": 12,
+      "second": 39,
+      "sound": "complete",
+      "purpose": "آشکارشدن نتیجه یا پاسخ",
+      "volume": 0.65,
+      "covers": [
+        "S12-108"
+      ],
+      "id": "SFX_126"
+    },
+    {
+      "scene": 13,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_127"
+    },
+    {
+      "scene": 13,
+      "second": 3,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S13-109"
+      ],
+      "id": "SFX_128"
+    },
+    {
+      "scene": 13,
+      "second": 5,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S13-110"
+      ],
+      "id": "SFX_129"
+    },
+    {
+      "scene": 13,
+      "second": 5.6,
+      "sound": "piece",
+      "purpose": "حرکت داده",
+      "volume": 0.7,
+      "covers": [
+        "S13-111"
+      ],
+      "id": "SFX_130"
+    },
+    {
+      "scene": 13,
+      "second": 6.2,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S13-112"
+      ],
+      "id": "SFX_131"
+    },
+    {
+      "scene": 13,
+      "second": 6.8,
+      "sound": "piece",
+      "purpose": "حرکت داده",
+      "volume": 0.7,
+      "covers": [
+        "S13-113"
+      ],
+      "id": "SFX_132"
+    },
+    {
+      "scene": 13,
+      "second": 7.4,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S13-114"
+      ],
+      "id": "SFX_133"
+    },
+    {
+      "scene": 13,
+      "second": 8,
+      "sound": "piece",
+      "purpose": "حرکت داده",
+      "volume": 0.7,
+      "covers": [
+        "S13-115"
+      ],
+      "id": "SFX_134"
+    },
+    {
+      "scene": 13,
+      "second": 9.2,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_135"
+    },
+    {
+      "scene": 13,
+      "second": 10.4,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_136"
+    },
+    {
+      "scene": 13,
+      "second": 12,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S13-116"
+      ],
+      "id": "SFX_137"
+    },
+    {
+      "scene": 13,
+      "second": 15,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S13-117"
+      ],
+      "id": "SFX_138"
+    },
+    {
+      "scene": 13,
+      "second": 18,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S13-118"
+      ],
+      "id": "SFX_139"
+    },
+    {
+      "scene": 13,
+      "second": 21,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_140"
+    },
+    {
+      "scene": 13,
+      "second": 22,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S13-119"
+      ],
+      "id": "SFX_141"
+    },
+    {
+      "scene": 13,
+      "second": 25,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_142"
+    },
+    {
+      "scene": 13,
+      "second": 28,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S13-120"
+      ],
+      "id": "SFX_143"
+    },
+    {
+      "scene": 14,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [],
+      "id": "SFX_144"
+    },
+    {
+      "scene": 14,
+      "second": 6,
+      "sound": "connect",
+      "purpose": "آشکارشدن مسیر",
+      "volume": 0.7,
+      "covers": [
+        "S14-121"
+      ],
+      "id": "SFX_145"
+    },
+    {
+      "scene": 14,
+      "second": 9,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S14-122"
+      ],
+      "id": "SFX_146"
+    },
+    {
+      "scene": 14,
+      "second": 19,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S14-123"
+      ],
+      "id": "SFX_147"
+    },
+    {
+      "scene": 14,
+      "second": 26,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S14-124"
+      ],
+      "id": "SFX_148"
+    },
+    {
+      "scene": 14,
+      "second": 30,
+      "sound": "enter",
+      "purpose": "Enter و ارسال دستور ls",
+      "volume": 0.9,
+      "covers": [
+        "S14-125"
+      ],
+      "id": "SFX_149"
+    },
+    {
+      "scene": 14,
+      "second": 33,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_150"
+    },
+    {
+      "scene": 14,
+      "second": 34,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S14-126"
+      ],
+      "id": "SFX_151"
+    },
+    {
+      "scene": 14,
+      "second": 38,
+      "sound": "transfer",
+      "purpose": "حرکت داده",
+      "volume": 0.65,
+      "covers": [
+        "S14-127"
+      ],
+      "id": "SFX_152"
+    },
+    {
+      "scene": 14,
+      "second": 41,
+      "sound": "arrival",
+      "purpose": "رسیدن داده در انتهای مسیر",
+      "volume": 0.6,
+      "covers": [],
+      "id": "SFX_153"
+    },
+    {
+      "scene": 14,
+      "second": 42,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S14-128"
+      ],
+      "id": "SFX_154"
+    },
+    {
+      "scene": 15,
+      "second": 0,
+      "sound": "transition",
+      "purpose": "ورود سکانس و عنوان",
+      "volume": 0.7,
+      "covers": [
+        "S15-129"
+      ],
+      "id": "SFX_155"
+    },
+    {
+      "scene": 15,
+      "second": 1.5,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S15-130"
+      ],
+      "id": "SFX_156"
+    },
+    {
+      "scene": 15,
+      "second": 3,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S15-131"
+      ],
+      "id": "SFX_157"
+    },
+    {
+      "scene": 15,
+      "second": 4.5,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S15-132"
+      ],
+      "id": "SFX_158"
+    },
+    {
+      "scene": 15,
+      "second": 8,
+      "sound": "reveal",
+      "purpose": "ورود کادر آموزشی",
+      "volume": 0.7,
+      "covers": [
+        "S15-133"
+      ],
+      "id": "SFX_159"
+    },
+    {
+      "scene": 15,
+      "second": 15,
+      "sound": "complete",
+      "purpose": "آشکارشدن نتیجه یا پاسخ",
+      "volume": 0.65,
+      "covers": [
+        "S15-134"
+      ],
+      "id": "SFX_160"
+    },
+    {
+      "scene": 15,
+      "second": 20,
+      "sound": "piece",
+      "purpose": "آشکارشدن توضیح یا تغییر وضعیت",
+      "volume": 0.7,
+      "covers": [
+        "S15-135"
+      ],
+      "id": "SFX_161"
+    },
+    {
+      "scene": 15,
+      "second": 25,
+      "sound": "complete",
+      "purpose": "آشکارشدن نتیجه یا پاسخ",
+      "volume": 0.65,
+      "covers": [
+        "S15-136"
+      ],
+      "id": "SFX_162"
+    }
+  ],
+  "playbackPace": 0.9,
+  "playbackNote": "second values are script seconds; src/Sfx.tsx multiplies them by pace.pace"
+}

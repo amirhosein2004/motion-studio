@@ -1,0 +1,26 @@
+{
+  "whoosh": {
+    "runtime": "sfx/whoosh.wav",
+    "durationSeconds": 0.46
+  },
+  "tap": {
+    "runtime": "sfx/tap.wav",
+    "durationSeconds": 0.16
+  },
+  "blip": {
+    "runtime": "sfx/blip.wav",
+    "durationSeconds": 0.29
+  },
+  "glass": {
+    "runtime": "sfx/glass.wav",
+    "durationSeconds": 0.62
+  },
+  "chime": {
+    "runtime": "sfx/chime.wav",
+    "durationSeconds": 1.45
+  },
+  "processing": {
+    "runtime": "sfx/processing.wav",
+    "durationSeconds": 1.36
+  }
+}

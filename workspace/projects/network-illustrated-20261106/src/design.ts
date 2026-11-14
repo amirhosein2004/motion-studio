@@ -1,0 +1,1 @@
+export const D = {bg:'#dc350c',panel:'#343e49',ink:'#fff1ce',muted:'#f9d393',cyan:'#bbec83',orange:'#ffcd32',purple:'#b4d8f3',red:'#fff0e2',line:'#211e26',font:'Vazirmatn',ease:[0.16,1,0.3,1] as const,shadow:'#421609',edge:'#202129',metal:'#77858a',light:'#bac4bc'};

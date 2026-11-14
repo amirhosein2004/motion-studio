@@ -1,0 +1,31 @@
+﻿import React from 'react';
+import {AbsoluteFill,Easing,interpolate,staticFile,useCurrentFrame,useVideoConfig} from 'remotion';
+import {D} from './design';
+import {Sfx} from './Sfx';
+import {Device3D} from './scenes/Device3D';
+import {Depth} from './depth/Depth';
+import {MeshView, makeCube} from './depth/engine';
+import pace from './pace.json';
+// Authored beats are written in "script seconds". Playing them back at PACE
+// keeps every reveal tied to its original beat while trimming the long holds.
+const CUBE=makeCube();
+export const useSeconds=()=>useCurrentFrame()/useVideoConfig().fps/pace.pace;
+const mixed=(content:React.ReactNode):React.ReactNode=>typeof content==='string'?content.split(/([A-Za-z][A-Za-z0-9@._:/-]*)/g).map((part,i)=>/[A-Za-z]/.test(part)?<bdi dir="ltr" key={i}>{part}</bdi>:part):content;
+export const ramp=(t:number,start:number,d=.8)=>interpolate(t,[start,start+d],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(...D.ease)});
+export const Beat=({at=0,children}:{at?:number;children:React.ReactNode})=>{const t=useSeconds(),p=ramp(t,at);return <g opacity={p} style={{translate:`0 ${(1-p)*18}px`}}>{children}</g>};
+export const Label=({x,y,w=360,children,color=D.ink,size=34,ltr=false,center=false}:{x:number;y:number;w?:number;children:React.ReactNode;color?:string;size?:number;ltr?:boolean;center?:boolean})=><foreignObject data-label="true" x={x-w/2} y={y} width={w} height={110}><div dir={ltr?'ltr':'rtl'} style={{textAlign:ltr?'center':'right',fontFamily:D.font,fontSize:size,lineHeight:1.45,color,whiteSpace:'normal',padding:'0 8px',boxSizing:'border-box',width:center?'max-content':'100%',maxWidth:'100%',margin:center?'0 auto':undefined}}>{ltr?children:mixed(children)}</div></foreignObject>;
+export const EN=({children}:{children:React.ReactNode})=><bdi dir="ltr">{children}</bdi>;
+export const Node=({x,y,label,kind='laptop',color=D.cyan,sub,at=0,scale=1}:{x:number;y:number;label:string;kind?:string;color?:string;sub?:string;at?:number;scale?:number})=><Beat at={at}><g data-device={label} transform={`translate(${x-76} ${y-62})`}><Device3D kind={kind} color={color} zoom={scale}/></g><Label x={x} y={y+112} w={290} center>{label}</Label>{sub&&<Label x={x} y={y+164} w={310} size={30} color={color} ltr>{sub}</Label>}</Beat>;
+export const Line=({a,b,at=0,color=D.cyan,dashed=false}:{a:[number,number];b:[number,number];at?:number;color?:string;dashed?:boolean})=>{const p=ramp(useSeconds(),at,1);return <g><path d={`M${a[0]} ${a[1]}L${b[0]} ${b[1]}`} pathLength={1} stroke={color} strokeWidth={6} fill="none" strokeDasharray={dashed?'.025 .025':1} strokeDashoffset={dashed?0:1-p} opacity={dashed?p:1}/><path transform={`translate(${b[0]} ${b[1]}) rotate(${Math.atan2(b[1]-a[1],b[0]-a[0])*180/Math.PI})`} d="M-15-11L0 0l-15 11" stroke={color} strokeWidth={4} fill="none" opacity={p}/></g>};
+export const Packet=({a,b,at,label='داده',color=D.orange,duration=2}:{a:[number,number];b:[number,number];at:number;label?:string;color?:string;duration?:number})=>{const t=useSeconds(),p=interpolate(t,[at,at+duration],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});if(t<at||t>at+duration+.35)return null;const x=a[0]+(b[0]-a[0])*p,y=a[1]+(b[1]-a[1])*p,w=Math.max(116,label.length*18+34);return <g data-packet={label} opacity={1-ramp(t,at+duration,.35)}><path d={`M${x-w/2} ${y-27}l${w-5}-3 5 53-${w} 4Z`} fill={color} stroke={D.edge} strokeWidth={3} style={{filter:`drop-shadow(5px 6px 0 ${D.shadow})`}}/><Label x={x} y={y-18} w={w-8} size={25} color={D.edge} center>{label}</Label></g>};
+export const Packet3D=({a,b,at,duration=3,label='داده',color=D.orange,size=48}:{a:[number,number];b:[number,number];at:number;duration?:number;label?:string;color?:string;size?:number})=>{const t=useSeconds(),p=interpolate(t,[at,at+duration],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});if(t<at||t>at+duration+.35)return null;const x=a[0]+(b[0]-a[0])*p,y=a[1]+(b[1]-a[1])*p;return <g opacity={1-ramp(t,at+duration,.35)}><MeshView mesh={CUBE} x={x} y={y} size={size} color={color} speed={0.55} seed={at*0.7} float={0} opacity={0.95} stroke={2.2} shadow/><text x={x} y={y+7} textAnchor="middle" fontFamily={D.font} fontSize={22} fontWeight={700} fill={D.edge}>{label}</text></g>};
+export const Box=({x,y,w,h=210,title,children,color=D.purple,at=0,titleSize=34}:{x:number;y:number;w:number;h?:number;title?:React.ReactNode;children?:React.ReactNode;color?:string;at?:number;titleSize?:number})=><Beat at={at}><g data-panel="true"><rect data-panel-bound="true" x={x} y={y} width={w} height={h} rx={9} fill={D.panel} stroke={color} strokeWidth={3} style={{filter:`drop-shadow(7px 9px 0 ${D.shadow})`}}/>{title&&<Label x={x+w/2} y={y+24} w={w-35} color={color} size={titleSize}>{title}</Label>}{children}</g></Beat>;
+export const Frame=({n,title,kicker,children}:{n:number;title:React.ReactNode;kicker:string;children:React.ReactNode})=>{const t=useSeconds();return <AbsoluteFill style={{background:D.bg,color:D.ink,fontFamily:D.font,overflow:'hidden'}}><style>{`@font-face{font-family:Vazirmatn;src:url('${staticFile('fonts/Vazirmatn-Regular.woff2')}')}@font-face{font-family:Vazirmatn;src:url('${staticFile('fonts/Vazirmatn-Bold.woff2')}');font-weight:700}`}</style>
+<div style={{position:'absolute',inset:0,backgroundImage:`url('${staticFile('assets/paper.svg')}')`,backgroundSize:'cover'}}/>
+<Depth scene={n}/>
+<div style={{position:'absolute',left:96,top:59,color:D.orange,fontSize:29,fontWeight:700}}><span style={{fontSize:52,lineHeight:1}}>{String(n).padStart(2,'0')}</span><span style={{marginLeft:18,fontSize:22,color:D.ink}}> / 15</span></div>
+<div dir="rtl" style={{position:'absolute',right:105,top:58,color:D.ink,fontSize:26,textAlign:'right'}}>{mixed(kicker)}</div>
+<h1 dir="rtl" style={{position:'absolute',right:100,left:95,top:116,color:D.orange,fontSize:68,fontWeight:700,margin:0,textAlign:'right',lineHeight:1.5,textShadow:`4px 5px 0 ${D.shadow}`,opacity:ramp(t,0),translate:`0 ${(1-ramp(t,0))*20}px`}}>{mixed(title)}</h1>
+<svg width={1920} height={760} viewBox="0 0 1920 760" style={{position:'absolute',top:260}}>{children}</svg>
+<div style={{position:'absolute',bottom:35,left:100,right:100,height:3,background:'#7e230f'}}><div style={{height:'100%',width:`${n/15*100}%`,background:D.orange,marginLeft:'auto'}}/></div>
+<Sfx scene={n}/></AbsoluteFill>};

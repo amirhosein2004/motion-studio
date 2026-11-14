@@ -1,0 +1,434 @@
+[
+  {
+    "id": "S01-entry",
+    "scene": "S01",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S01-model",
+    "scene": "S01",
+    "asset": "glass",
+    "cue": "place",
+    "offset": 0.35,
+    "reason": "Model revealed inside assistant",
+    "volume": 1
+  },
+  {
+    "id": "S02-entry",
+    "scene": "S02",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S02-data",
+    "scene": "S02",
+    "asset": "blip",
+    "cue": "predict",
+    "offset": 0.06,
+    "reason": "Data begins travelling to model",
+    "volume": 1
+  },
+  {
+    "id": "S02-loss",
+    "scene": "S02",
+    "asset": "processing",
+    "cue": "compare",
+    "offset": 0.15,
+    "reason": "Prediction compared with target before weights update",
+    "volume": 1
+  },
+  {
+    "id": "S02-update",
+    "scene": "S02",
+    "asset": "glass",
+    "cue": "update",
+    "offset": 0.45,
+    "reason": "Weight correction becomes visible",
+    "volume": 1
+  },
+  {
+    "id": "S03-entry",
+    "scene": "S03",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S03-tokens",
+    "scene": "S03",
+    "asset": "tap",
+    "cue": "tokens",
+    "offset": 0.08,
+    "reason": "Text pieces separate",
+    "volume": 1
+  },
+  {
+    "id": "S03-vectors",
+    "scene": "S03",
+    "asset": "blip",
+    "cue": "vectors",
+    "offset": 0.2,
+    "reason": "Vector representations appear",
+    "volume": 1
+  },
+  {
+    "id": "S04-entry",
+    "scene": "S04",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S04-compute",
+    "scene": "S04",
+    "asset": "processing",
+    "cue": "attention",
+    "offset": 0.2,
+    "reason": "Transformer computation starts",
+    "volume": 1
+  },
+  {
+    "id": "S04-select",
+    "scene": "S04",
+    "asset": "tap",
+    "cue": "select",
+    "offset": 0.2,
+    "reason": "First continuation selected",
+    "volume": 1
+  },
+  {
+    "id": "S04-append",
+    "scene": "S04",
+    "asset": "blip",
+    "cue": "append",
+    "offset": 0.06,
+    "reason": "Selected piece travels into output",
+    "volume": 1
+  },
+  {
+    "id": "S04-next",
+    "scene": "S04",
+    "asset": "tap",
+    "cue": "next",
+    "offset": 0.2,
+    "reason": "Second generation round selects another piece",
+    "volume": 1
+  },
+  {
+    "id": "S05-entry",
+    "scene": "S05",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S05-feedback",
+    "scene": "S05",
+    "asset": "tap",
+    "cue": "feedback",
+    "offset": 0.2,
+    "reason": "Training examples and feedback introduced",
+    "volume": 1
+  },
+  {
+    "id": "S05-tune",
+    "scene": "S05",
+    "asset": "glass",
+    "cue": "tune",
+    "offset": 0.3,
+    "reason": "Post-training weight change",
+    "volume": 1
+  },
+  {
+    "id": "S05-context",
+    "scene": "S05",
+    "asset": "tap",
+    "cue": "context",
+    "offset": 0.2,
+    "reason": "New context distinguished from fixed weights",
+    "volume": 1
+  },
+  {
+    "id": "S06-entry",
+    "scene": "S06",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S06-request",
+    "scene": "S06",
+    "asset": "blip",
+    "cue": "request",
+    "offset": 0.05,
+    "reason": "Tool request leaves model",
+    "volume": 1
+  },
+  {
+    "id": "S06-search",
+    "scene": "S06",
+    "asset": "processing",
+    "cue": "search",
+    "offset": 0.15,
+    "reason": "Tool executes search",
+    "volume": 1
+  },
+  {
+    "id": "S06-source",
+    "scene": "S06",
+    "asset": "glass",
+    "cue": "source",
+    "offset": 1.08,
+    "reason": "Source arrives back at tool",
+    "volume": 1
+  },
+  {
+    "id": "S06-context",
+    "scene": "S06",
+    "asset": "blip",
+    "cue": "context",
+    "offset": 0.05,
+    "reason": "Source travels into model context",
+    "volume": 1
+  },
+  {
+    "id": "S07-entry",
+    "scene": "S07",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S07-ingredients",
+    "scene": "S07",
+    "asset": "tap",
+    "cue": "ingredients",
+    "offset": 0.15,
+    "reason": "Ingredients introduced",
+    "volume": 1
+  },
+  {
+    "id": "S07-combine",
+    "scene": "S07",
+    "asset": "processing",
+    "cue": "combine",
+    "offset": 0.15,
+    "reason": "Learned patterns combined with prompt",
+    "volume": 1
+  },
+  {
+    "id": "S07-suggestion",
+    "scene": "S07",
+    "asset": "chime",
+    "cue": "suggestion",
+    "offset": 0.55,
+    "reason": "A possible recipe suggestion appears; not a factual correctness signal",
+    "volume": 1
+  },
+  {
+    "id": "S08-entry",
+    "scene": "S08",
+    "asset": "whoosh",
+    "cue": "scene-start",
+    "offset": 0,
+    "reason": "Scene entry",
+    "volume": 1
+  },
+  {
+    "id": "S08-path",
+    "scene": "S08",
+    "asset": "tap",
+    "cue": "run",
+    "offset": 0.18,
+    "reason": "Inference path connected",
+    "volume": 1
+  },
+  {
+    "id": "S08-finish",
+    "scene": "S08",
+    "asset": "chime",
+    "cue": "limit",
+    "offset": 0.4,
+    "reason": "Final takeaway settles",
+    "volume": 1
+  },
+  {
+    "id": "S01-boundary-accent",
+    "scene": "S01",
+    "asset": "tap",
+    "cue": "boundary",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: رابط و ابزار جدا از مدل"
+  },
+  {
+    "id": "S01-scope-accent",
+    "scene": "S01",
+    "asset": "tap",
+    "cue": "scope",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: هر هوش مصنوعی مدل زبانی نیست"
+  },
+  {
+    "id": "S02-data-accent",
+    "scene": "S02",
+    "asset": "tap",
+    "cue": "data",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: دادهٔ آماده‌شده"
+  },
+  {
+    "id": "S02-repeat-accent",
+    "scene": "S02",
+    "asset": "tap",
+    "cue": "repeat",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: تکرار روی داده‌های زیاد"
+  },
+  {
+    "id": "S03-text-accent",
+    "scene": "S03",
+    "asset": "tap",
+    "cue": "text",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: متن ورودی"
+  },
+  {
+    "id": "S03-ids-accent",
+    "scene": "S03",
+    "asset": "tap",
+    "cue": "ids",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: شناسهٔ هر توکن"
+  },
+  {
+    "id": "S04-context-accent",
+    "scene": "S04",
+    "asset": "tap",
+    "cue": "context",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: متن در دسترس"
+  },
+  {
+    "id": "S04-scores-accent",
+    "scene": "S04",
+    "asset": "tap",
+    "cue": "scores",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: احتمال ادامه"
+  },
+  {
+    "id": "S04-again-accent",
+    "scene": "S04",
+    "asset": "blip",
+    "cue": "again",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: تکرار با ورودی تازه"
+  },
+  {
+    "id": "S05-inference-accent",
+    "scene": "S05",
+    "asset": "tap",
+    "cue": "inference",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: وزن ثابت هنگام پاسخ"
+  },
+  {
+    "id": "S06-answer-accent",
+    "scene": "S06",
+    "asset": "tap",
+    "cue": "answer",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: ساخت پاسخ با منبع"
+  },
+  {
+    "id": "S06-boundary-accent",
+    "scene": "S06",
+    "asset": "tap",
+    "cue": "boundary",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: جستجو آموزش مجدد نیست"
+  },
+  {
+    "id": "S07-patterns-accent",
+    "scene": "S07",
+    "asset": "tap",
+    "cue": "patterns",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: الگوهای یادگرفته‌شده"
+  },
+  {
+    "id": "S07-memorization-accent",
+    "scene": "S07",
+    "asset": "tap",
+    "cue": "memorization",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: بازتولید بعضی متن‌ها ممکنه"
+  },
+  {
+    "id": "S08-learn-accent",
+    "scene": "S08",
+    "asset": "tap",
+    "cue": "learn",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: آموزش و وزن‌ها"
+  },
+  {
+    "id": "S08-tool-accent",
+    "scene": "S08",
+    "asset": "blip",
+    "cue": "tool",
+    "offset": 0.15,
+    "volume": 0.6,
+    "reason": "Previously silent visual cue: ابزار و زمینه"
+  },
+  {
+    "id": "S04-word-build-2",
+    "scene": "S04",
+    "asset": "tap",
+    "cue": "next",
+    "offset": 1.15,
+    "volume": 0.42,
+    "reason": "Second visible response fragment"
+  },
+  {
+    "id": "S04-word-build-3",
+    "scene": "S04",
+    "asset": "tap",
+    "cue": "next",
+    "offset": 2.2,
+    "volume": 0.42,
+    "reason": "Final visible response fragment"
+  }
+]

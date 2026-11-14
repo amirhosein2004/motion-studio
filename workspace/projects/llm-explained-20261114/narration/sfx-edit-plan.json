@@ -1,0 +1,11 @@
+{
+  "authorization":"User supplied these six files and explicitly requested moving them into the project, trimming and placing them in the motion.",
+  "assets":[
+    {"id":"whoosh","source":"dragon-studio-simple-whoosh-382724.mp3","runtime":"sfx/whoosh.wav","start":0,"end":0.46,"fadeIn":0.006,"fadeOut":0.045,"targetPeakDb":-23},
+    {"id":"tap","source":"vadim_makes_sound-soft-app-button-tap-sound-2-547872.mp3","runtime":"sfx/tap.wav","start":0,"end":0.16,"fadeIn":0.001,"fadeOut":0.025,"targetPeakDb":-26},
+    {"id":"blip","source":"u_f1ee7vf7na-blip-131856.mp3","runtime":"sfx/blip.wav","start":0,"end":0.29,"fadeIn":0.002,"fadeOut":0.025,"targetPeakDb":-23},
+    {"id":"glass","source":"soundshelfstudio-ui-soft-glass-ping-526562.mp3","runtime":"sfx/glass.wav","start":0,"end":0.62,"fadeIn":0.002,"fadeOut":0.08,"targetPeakDb":-24},
+    {"id":"chime","source":"universfield-clear-bell-chime-487898.mp3","runtime":"sfx/chime.wav","start":0,"end":1.45,"fadeIn":0.003,"fadeOut":0.12,"targetPeakDb":-23},
+    {"id":"processing","source":"samuelfjohanns-computer-processing-sound-effect-01-122131.mp3","runtime":"sfx/processing.wav","start":0.14,"end":1.5,"fadeIn":0.045,"fadeOut":0.12,"targetPeakDb":-23}
+  ]
+}

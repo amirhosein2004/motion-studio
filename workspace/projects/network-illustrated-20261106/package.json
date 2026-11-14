@@ -1,0 +1,24 @@
+{
+  "name": "network-illustrated-preview",
+  "private": true,
+  "scripts": {
+    "start": "node ../../../installation/scripts/Start-LocalRemotion.cjs src/index.ts --port=3118 --no-open",
+    "check": "tsc --noEmit",
+    "qa": "node scripts/qa-stills.mjs",
+    "prepare:sfx": "..\\\\..\\\\..\\\\installation\\\\tools\\\\manim\\\\.venv\\\\Scripts\\\\python.exe scripts/prepare-sfx.py",
+    "audit:sfx": "node scripts/audit-motion-sfx.mjs",
+    "qa:review": "node scripts/qa-stills.mjs --frames=15 --beats --review-v4",
+    "timeline": "node scripts/rebuild-timeline.mjs"
+  },
+  "dependencies": {
+    "remotion": "4.0.535",
+    "@remotion/cli": "4.0.535",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@remotion/media": "4.0.535"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^19.0.0"
+  }
+}
