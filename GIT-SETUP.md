@@ -1,6 +1,6 @@
 # Repository contents and restore
 
-Repository: [amirhosein2004/motion-studio](https://github.com/amirhosein2004/motion-studio). Private visibility is recommended: the repository contains user briefs, original inputs, and third-party reference/SFX files whose public redistribution rights have not been established. No blanket open-source license is assigned to these materials.
+Repository: [amirhosein2004/motion-studio](https://github.com/amirhosein2004/motion-studio). Visibility: **public**, explicitly selected by the owner on 2026-11-14 after reviewing that the prepared files include user briefs, original inputs and reference images. Third-party reference/SFX licenses remain as recorded in each project's source manifest; public hosting does not assign these materials a blanket open-source license.
 
 ## What belongs in Git
 
@@ -62,4 +62,4 @@ The existing machine uses a dependency junction for this older project; Git inte
 
 The repository uses branch `main`, with `origin` pointing to `https://github.com/amirhosein2004/motion-studio.git`. Never store an access token in a remote URL or project file. Authenticate with the existing GitHub CLI/credential manager.
 
-For subsequent changes, inspect `git status` and `git diff`, stage the intended files, commit, then push. Check new asset sizes and the private repository setting before sharing project inputs.
+For subsequent changes, inspect `git status` and `git diff`, stage the intended files, commit, then push. Check new asset sizes and remember that files pushed to this repository are publicly accessible.
